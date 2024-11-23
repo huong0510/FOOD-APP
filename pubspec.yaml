@@ -1,0 +1,31 @@
+name: foodapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+dependencies:
+  win32: ^5.8.0
+  flutter:
+    sdk: flutter
+  bubble:
+  cupertino_icons: ^1.0.2
+  intl: ^0.20.0
+  provider: ^6.0.3
+  flutter_dotenv: ^5.0.2
+  http: ^1.2.2
+  shared_preferences: ^2.0.15
+  pie_chart: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/Images/
+
